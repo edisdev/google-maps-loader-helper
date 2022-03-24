@@ -1,0 +1,22 @@
+{
+  "name": "google-maps-loader-helper",
+  "version": "1.0.0",
+  "main": "helper.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "google-maps",
+    "google-maps-js-api"
+  ],
+  "homepage": "https://edisdev.github.io/google-maps-loader-helper",
+  "repository": {
+    "url": " git+https://github.com/edisdev/google-maps-loader-helper.git",
+    "type": "git"
+  },
+  "author": "edisdev<edisdev14@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@googlemaps/js-api-loader": "^1.13.9"
+  }
+}
