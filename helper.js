@@ -35,6 +35,7 @@ export default class GoogleMaps {
     this.version = opts.version || 'quarterly'
     this.libraries = opts.libraries || ['places']
     this.zoom = opts.zoom || 11
+    this.mapTypeId = opts.mapTypeId
 
     //
     this.google = null
@@ -67,6 +68,7 @@ export default class GoogleMaps {
       center: this.location,
       mapTypeControl: false,
       streetViewControl: false,
+      mapTypeId: this.mapTypeId,
       ...(this.options.mapOptions || {})
     }
   }
